@@ -81,7 +81,7 @@ plugins:
   - minify                                              # Minifies HTML, CSS, and JavaScript files for faster loading
   - mermaid2                                            # Enables rendering of Mermaid diagrams in Markdown files
   - mkdocs-jupyter                                      # Allows for embedding Jupyter notebooks in Markdown files
-  - mike                                                # Used for versioning the documentation
+ # - mike                                                # Used for versioning the documentation
   - tags                                                # Adds support for tagging pages in the documentation
 
 # ---- Markdown Extensions ----
@@ -98,7 +98,6 @@ markdown_extensions:                                    # Adds features to Markd
   - pymdownx.tabbed                                     # Tabbed content blocks
 
 # -------- Extra Site Settings --------
-
 
 extra:
   social:
