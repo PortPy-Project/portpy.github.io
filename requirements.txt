@@ -1,0 +1,7 @@
+mkdocs-material  		# Theme for MkDocs
+mkdocstrings[python] 		# Auto API documentation for Python
+mkdocs-awesome-pages-plugin 	# For page ordering
+mkdocs-minify-plugin		# Minifies HTML output to reduce site size
+mkdocs-mermaid2-plugin		# Adds support for Mermaid diagrams (flowcharts, sequence diagrams, etc.)
+mkdocs-jupyter			# Enables rendering of Jupyter notebooks (.ipynb) in MkDocs
+# mike Versioned docs

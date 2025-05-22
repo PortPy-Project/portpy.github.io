@@ -1,0 +1,115 @@
+
+# MkDocs configuration file for the PortPy documentation site.
+# This file defines the site title, theme, navigation structure, plugins, and custom styling/scripts.
+# It uses the Material for MkDocs theme and includes pages for user guides, tutorials, API reference, and more.
+
+# ----  Site metadata shown in the browser and used for SEO --------
+
+site_name: PortPy
+site_description: Open-source Python library for radiation therapy planning and optimization.
+site_author: PortPy Contributors
+repo_url: https://github.com/PortPy-Project/PortPy  # Link to the GitHub repository (shown in top-right corner)
+repo_name: PortPy on GitHub
+
+# ---- Theme and appearance settings using Material for MkDocs --------
+
+theme:
+  name: material
+  logo: images/PortPy_logo.png                      # Logo shown in the navigation bar
+  favicon: images/PortPy_logo.png                   # Icon shown in browser tabs
+  palette:                                          # Define light and dark color schemes                          
+    - scheme: default
+      primary: deep purple
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+  # Set fonts for text and code                                                     
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant                              # Instantly loads new pages without full reload
+    - navigation.tabs                                 # Displays top-level navigation as horizontal tabs    
+    - navigation.top                                  # Keeps the top navigation bar visible while scrolling (sticky header)
+    - toc.integrate                                   # Integrates table of contents into the side navigation
+    - search.suggest                                  # Suggests search terms as you type
+    - search.highlight                                # Highlights search terms in the results
+
+    - content.code.annotate                       # works with the pymdownx.inlinehilite and pymdownx.snippets extensions.  
+                                                  # It allows highlighting specific parts of code and provides explanations inline using custom syntax.(like ==highlight== or --comment-- formats)
+    - content.code.copy                           # Adds a copy button to code blocks for easy copying 
+
+
+# --------Navigation structure for the sidebar and top menu --------
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - User Guide:
+      - Overview: user-guide/overview.md
+      - Workflow: user-guide/workflow.md
+      - Command-Line Interface: user-guide/cli.md
+  - Tutorials:
+      - Loading Data: tutorials/loading-data.md
+      - Optimization Example: tutorials/optimization.md
+      - Beam Orientation: tutorials/beam-orientation.md
+      - Custom Algorithms: tutorials/custom-algorithms.md
+  - Examples: examples.md
+  - API Reference:
+      - PortPy API: api/portpy.md
+  - Publications: publications.md
+  - Contributing: contributing.md
+
+
+# --------MkDocs plugins used to enhance functionality --------
+
+plugins:
+  - search                                              # Adds search functionality
+  - mkdocstrings:                                       # Automatically builds API documentation from Python docstrings in the 'portpy' package
+      handlers:
+        python:
+          paths: [portpy]                               # Specify the path to the Python package for API documentation  
+  - awesome-pages                                       # Allows for easy creation of a multi-level navigation structure with .pages files
+  - minify                                              # Minifies HTML, CSS, and JavaScript files for faster loading
+  - mermaid2                                            # Enables rendering of Mermaid diagrams in Markdown files
+  - mkdocs-jupyter                                      # Allows for embedding Jupyter notebooks in Markdown files
+  - mike                                                # Used for versioning the documentation
+  - tags                                                # Adds support for tagging pages in the documentation
+
+# ---- Markdown Extensions ----
+
+markdown_extensions:                                    # Adds features to Markdown rendering
+  - admonition                                          # Enables note, warning, and tip blocks
+  - codehilite                                          # Syntax highlighting for code blocks  
+  - footnotes                                           # Enables footnotes in Markdown
+  - toc:                                                # Table of contents settings
+      permalink: true
+  - pymdownx.superfences                                # Enables nested code blocks
+  - pymdownx.highlight                                  # Syntax highlighting for code blocks
+  - pymdownx.details                                    # Expandable details blocks
+  - pymdownx.tabbed                                     # Tabbed content blocks
+
+# -------- Extra Site Settings --------
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/PortPy-Project/PortPy
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/portpy-photon/
+
+extra_javascript: # Include custom JavaScript files
+  - js/extra.js
+
+extra_css: # Include custom CSS files
+  - styles/extra.css
+
