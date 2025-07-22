@@ -37,7 +37,7 @@ theme:
     code: Roboto Mono
   features:
     - navigation.instant                              # Instantly loads new pages without full reload
-    - navigation.tabs                                 # Displays top-level navigation as horizontal tabs    
+    #- navigation.tabs                                 # Displays top-level navigation as horizontal tabs    
     - navigation.top                                  # Keeps the top navigation bar visible while scrolling (sticky header)
     - toc.integrate                                   # Integrates table of contents into the side navigation
     - search.suggest                                  # Suggests search terms as you type
@@ -53,6 +53,7 @@ theme:
 nav:
   - Home: index.md
   - Installation: installation.md
+  - Getting Started: getting-started.md
   - User Guide:
       - Overview: user-guide/overview.md
       - Workflow: user-guide/workflow.md
@@ -67,6 +68,9 @@ nav:
       - PortPy API: api/portpy.md
   - Publications: publications.md
   - Contributing: contributing.md
+  - Datasets: datasets.md
+  - About: about.md
+  
 
 
 # --------MkDocs plugins used to enhance functionality --------
