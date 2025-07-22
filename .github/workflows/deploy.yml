@@ -2,10 +2,14 @@
 name: Deploy MkDocs site to GitHub Pages
 
 # Trigger the workflow when pushing to the "main" branch
-on: 
+on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
 
 # Allow the workflow to write to the repository (needed to publish to gh-pages)
 permissions:
