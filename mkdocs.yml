@@ -37,6 +37,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   features:
+    - navigation.expand
     - navigation.instant                              # Instantly loads new pages without full reload
     #- navigation.tabs                                 # Displays top-level navigation as horizontal tabs    
     - navigation.top                                  # Keeps the top navigation bar visible while scrolling (sticky header)
@@ -53,26 +54,24 @@ theme:
 
 nav:
   - Home: index.md
-#  - Installation: installation.md
   - Quick Start: quick_start.md
-#  - User Guide:
-#      - Overview: user-guide/overview.md
-#      - Workflow: user-guide/workflow.md
-#      - Command-Line Interface: user-guide/cli.md
   - Tutorials:
-      - Loading Data: tutorials/loading-data.md
-      - Optimization Example: tutorials/optimization.md
-      - Beam Orientation: tutorials/beam-orientation.md
-      - Custom Algorithms: tutorials/custom-algorithms.md
-#  - Examples: examples.md
-#  - API Reference:
-#      - PortPy API: api/portpy.md
-#  - Publications: publications.md
-#  - Contributing: contributing.md
-  - Benchmark Datasets: benchmark_datasets.md
-  - Extensions: extensions.md
+      - Introduction: tutorials/introduction.md
+      - Data Loading: tutorials/data_loading.md
+      - Plan Optimization: tutorials/plan_optimization.md
+      - Plan Evaluation: tutorials/plan_evaluation.md
+      - Global Optimization: tutorials/global_optimization.md
+      - TPS Integration: tutorials/tps_integration.md
+  #- Benchmark Datasets: benchmark_datasets.md
   - FAQ: FAQ.md
-#  - About: about.md
+  - Contact Us: contact_us.md
+  - Resources: resources.md
+  - Extensions:
+      - Overview: extensions/overview.md
+      - CompressRTP: extensions/compressRTP.md
+      - ECHO-VMAT: extensions/echo_vmat.md
+
+
   
 
 
