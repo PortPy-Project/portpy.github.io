@@ -20,12 +20,12 @@ theme:
   palette:                                          # Define light and dark color schemes                          
     - scheme: default
       primary: "#4051b5"
-      accent: lime
+      accent: "#009688"
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - scheme: slate
-      primary: blue grey
+      primary: teal
       accent: lime
       toggle:
         icon: material/weather-sunny
