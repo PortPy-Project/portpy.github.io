@@ -51,25 +51,27 @@ theme:
 # --------Navigation structure for the sidebar and top menu --------
 
 nav:
-  - Home: index.md
-  - Installation: installation.md
-  - Getting Started: getting-started.md
-  - User Guide:
-      - Overview: user-guide/overview.md
-      - Workflow: user-guide/workflow.md
-      - Command-Line Interface: user-guide/cli.md
-  - Tutorials:
-      - Loading Data: tutorials/loading-data.md
-      - Optimization Example: tutorials/optimization.md
-      - Beam Orientation: tutorials/beam-orientation.md
-      - Custom Algorithms: tutorials/custom-algorithms.md
-  - Examples: examples.md
-  - API Reference:
-      - PortPy API: api/portpy.md
-  - Publications: publications.md
-  - Contributing: contributing.md
+  - Home: home.md
+  - Quick Start: quick-start.md
   - Datasets: datasets.md
-  - About: about.md
+  #- Getting Started: getting-started.md
+  #- User Guide:
+  #    - Overview: user-guide/overview.md
+  #    - Workflow: user-guide/workflow.md
+  #    - Command-Line Interface: user-guide/cli.md
+  - Tutorials:
+      - Workflow Overview: tutorials/workflow-overview.md
+      - Data Management: tutorials/loading-data.md
+      - Plan Generation: tutorials/optimization.md
+      - Plan Evaluation: tutorials/beam-orientation.md
+  - Extensions: extensions.md
+  #- Examples: examples.md
+  #- API Reference:
+  #    - PortPy API: api/portpy.md
+  #- Publications: publications.md
+  #- Contributing: contributing.md
+  - FAQ: FAQ.md
+  #- About: about.md
   
 
 
