@@ -1,4 +1,4 @@
-# PortPy
+PortPy
 
 > Modern Portfolio Optimization in Python
 

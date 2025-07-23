@@ -5,7 +5,8 @@
 
 # ----  Site metadata shown in the browser and used for SEO --------
 
-site_name: PortPy
+#site_name: PortPy
+site_name: ""
 site_description: Open-source Python library for radiation therapy planning and optimization.
 site_author: PortPy Contributors
 repo_url: https://github.com/PortPy-Project/PortPy  # Link to the GitHub repository (shown in top-right corner)
@@ -98,6 +99,7 @@ markdown_extensions:                                    # Adds features to Markd
   - footnotes                                           # Enables footnotes in Markdown
   - toc:                                                # Table of contents settings
       permalink: true
+      toc_depth: 0
   - pymdownx.superfences                                # Enables nested code blocks
   - pymdownx.highlight                                  # Syntax highlighting for code blocks
   - pymdownx.details                                    # Expandable details blocks
