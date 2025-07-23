@@ -19,13 +19,13 @@ theme:
   favicon: images/PortPy_logo.png                   # Icon shown in browser tabs
   palette:                                          # Define light and dark color schemes                          
     - scheme: default
-      primary: deep purple
-      accent: lime
+      primary: "#4051b5"
+      accent: "#009688"
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - scheme: slate
-      primary: blue grey
+      primary: teal
       accent: lime
       toggle:
         icon: material/weather-sunny
@@ -39,7 +39,7 @@ theme:
     - navigation.instant                              # Instantly loads new pages without full reload
     #- navigation.tabs                                 # Displays top-level navigation as horizontal tabs    
     - navigation.top                                  # Keeps the top navigation bar visible while scrolling (sticky header)
-    - toc.integrate                                   # Integrates table of contents into the side navigation
+    #- toc.integrate                                   # Integrates table of contents into the side navigation
     - search.suggest                                  # Suggests search terms as you type
     - search.highlight                                # Highlights search terms in the results
 
