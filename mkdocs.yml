@@ -37,7 +37,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   features:
-    - navigation.expand
+#    - navigation.expand
     - navigation.instant                              # Instantly loads new pages without full reload
     #- navigation.tabs                                 # Displays top-level navigation as horizontal tabs    
     - navigation.top                                  # Keeps the top navigation bar visible while scrolling (sticky header)
@@ -55,21 +55,21 @@ theme:
 nav:
   - Home: index.md
   - Quick Start: quick_start.md
-  - Tutorials:
-      - Introduction: tutorials/introduction.md
-      - Data Loading: tutorials/data_loading.md
-      - Plan Optimization: tutorials/plan_optimization.md
-      - Plan Evaluation: tutorials/plan_evaluation.md
-      - Global Optimization: tutorials/global_optimization.md
-      - TPS Integration: tutorials/tps_integration.md
-  #- Benchmark Datasets: benchmark_datasets.md
   - FAQ: FAQ.md
   - Contact Us: contact_us.md
   - Resources: resources.md
-  - Extensions:
-      - Overview: extensions/overview.md
-      - CompressRTP: extensions/compressRTP.md
-      - ECHO-VMAT: extensions/echo_vmat.md
+#  - Tutorials:
+#      - Introduction: tutorials/introduction.md
+#      - Data Loading: tutorials/data_loading.md
+#      - Plan Optimization: tutorials/plan_optimization.md
+#      - Plan Evaluation: tutorials/plan_evaluation.md
+#      - Global Optimization: tutorials/global_optimization.md
+#      - TPS Integration: tutorials/tps_integration.md
+#  #- Benchmark Datasets: benchmark_datasets.md
+#  - Extensions:
+#      - Overview: extensions/overview.md
+#      - CompressRTP: extensions/compressRTP.md
+#      - ECHO-VMAT: extensions/echo_vmat.md
 
 
   
@@ -98,7 +98,7 @@ markdown_extensions:                                    # Adds features to Markd
   - footnotes                                           # Enables footnotes in Markdown
   - toc:                                                # Table of contents settings
       permalink: true
-      toc_depth: 0
+      toc_depth: 2
   - pymdownx.superfences                                # Enables nested code blocks
   - pymdownx.highlight                                  # Syntax highlighting for code blocks
   - pymdownx.details                                    # Expandable details blocks
