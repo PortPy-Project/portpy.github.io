@@ -1,4 +1,4 @@
-# What is PortPy?
+# **What is PortPy?**
 
 <img src="./images/Linac.gif" align="right" alt="Radiotherapy 101" width="30%" height="30%" margin-right="10px">
 
