@@ -28,4 +28,37 @@
     transition: width 0.3s ease !important;  Optional: smooth transition */
 
   }
-  
+/* Base table style */
+.md-typeset table {
+  font-size: 16px;
+  border-collapse: collapse;
+}
+
+.md-typeset table td,
+.md-typeset table th {
+  padding: 12px 16px;
+}
+
+/* First column background + custom link color */
+.md-typeset table tr td:first-child,
+.md-typeset table tr th:first-child {
+  background-color: #f5f5f5; /* Light blue */
+}
+
+/* Second column background */
+.md-typeset table tr td:nth-child(2),
+.md-typeset table tr th:nth-child(2) {
+  background-color: #fffbea; /* Light yellow */
+}
+
+/* Custom hyperlink color in first column */
+.md-typeset table tr td:first-child a {
+  color: #1a5e9a;           /* A deep, professional blue */
+  text-decoration: none;    /* Remove underline */
+  font-weight: 500;         /* Slightly bold for visibility */
+}
+
+.md-typeset table tr td:first-child a:hover {
+  color: #104d80;           /* Darker on hover */
+  text-decoration: underline;
+}

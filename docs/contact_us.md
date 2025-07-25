@@ -6,5 +6,5 @@ If you prefer to communicate via email:
 - For technical questions, contact the lead developer:  
    Gourav Jhanwar — [jhanwarg@mskcc.org](mailto:jhanwarg@mskcc.org)
 
-- For general inquiries, contact the PI:  
+- For general inquiries (e.g., colaboration, tutorial for your group, licensing), contact the PI:  
    Masoud Zarepisheh — [zarepism@mskcc.org](mailto:zarepism@mskcc.org)

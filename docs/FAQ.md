@@ -16,16 +16,16 @@ from thousands of beamlets).
 
 ### **Can I use other open-source software for dose calculation and PortPy for planning optimization?**
 One of PortPy’s goals is to generate **clinically usable, deliverable plans** with dose calculations  
-that match commercial TPS accuracy. Therefore, we currently do **not** support integrating  
-other open-source dose engines into PortPy.
-
-However, users are welcome to use other software for dose calculation and PortPy solely for  
-optimization **if clinical-level dose accuracy is not required** for their use case.
+that match commercial TPS accuracy. This focus makes PortPy not only a clinically relevant platform but also a 
+powerful research tool for benchmarking optimization algorithms and their resultant treatment plans against the 
+clinical plans. Therefore, we currently do **not** support integrating other open-source dose engines into PortPy. 
+However, users are welcome to use PortPy solely for planning optimization and perform dose calculations using other 
+software, provided this setup meets the needs of their research or application.
 
 ---
 
 ### **Can I do proton therapy optimization with PortPy?**
-Currently, PortPy only supports **photon therapy optimization**.  
+PortPy currently only supports **photon planning optimization**.  
 Proton therapy support is expected to be released in 2026.
 
 ---

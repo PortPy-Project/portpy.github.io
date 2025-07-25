@@ -1,48 +1,35 @@
 ## Installation
-1. **Using pip**:
-   
-    * Run the command
-      ```
-      pip install portpy
-      ```
-    * You can install optional packages using
-      ```
-      pip install portpy[mosek, pydicom]
-      ```
-   * For installing AI related packages
-     ```
-      pip install portpy[ai]   
-     ```
-   * For installing all the additional packages
-     ```
-      pip install portpy[all]   
-     ```
+???+ example "Installing PortPy"
 
-2. **From source**:
-   
-    * Clone this repository using
-      ```
-      git clone https://github.com/PortPy-Project/PortPy.git
-      ```
-    * Navigate to the repository with
-      ```
-      cd portpy
-      ```
+    === "pip/conda"
 
-    * Install the dependencies within a Python virtual environment or Anaconda environment. To set up in a Python virtual environment, install all the dependencies specified in requirements.txt as follows:
-        * Create the virtual environment with
-          ```
-          python3 -m venv venv
-          ```
-        * Activate the environment with 
-          ```
-          source venv/bin/activate
-          ```
-        * Install the requirements using
-          ```
-          pip install -r requirements.txt
-          ```
+        To install PortPy with all its dependecies (recommonded).
+        ```bash
+        pip install portpy[all]
+        ```
+        To install PortPy with only optional dependencies.
+        ```bash
+        pip install portpy[ai, mosek, pydicom]
+        ```
+        To install PortPy with only the core dependencies.
+        ```bash
+        pip install portpy
+        ```
 
+    === "From source"
+
+        1- Clone this repository 
+        ```bash
+        git clone https://github.com/PortPy-Project/PortPy.git
+        ```
+        2- Navigate to the repository 
+        ```bash
+        cd portpy
+        ``` 
+        3- Install the dependencies within a Python/Anaconda virtual environment 
+              ```bash
+              pip install -r requirements.txt
+              ```        
 
 ## Quick Start Guide
 
