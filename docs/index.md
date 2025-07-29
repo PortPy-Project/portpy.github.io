@@ -97,3 +97,6 @@ system, **ECHO**, are included for benchmarking
 
 
 
+## 🛎️ Join Our Mailing List
+- **Subscribe to receive news about major releases and new features.**
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSciIhxOCXT_x4BjODfkhdQe_Fx1vU0xrJ4X3HJsTPH-GLfaqg/viewform?embedded=true" width="640" height="553" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
