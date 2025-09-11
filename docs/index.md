@@ -86,6 +86,12 @@ system, **ECHO**, are included for benchmarking
 
 
 ## 📢 News
+- **[PortPy v1.1.1 released]** The following features have been added:
+
+     - **Prostate dataset added**: 129 Prostate patients have been added and is now hosted on [HuggingFace](https://huggingface.co/datasets/PortPy-Project). This dataset expands PortPy’s resources for advancing radiotherapy research(see [notebook](https://github.com/PortPy-Project/PortPy/blob/master/examples/1_basic_tutorial.ipynb)).
+     - **Enhanced data explorer**: Added new methods to DataExplorer for accessing data directly from Hugging Face.
+     - **Faster optimization**: Eliminated redundant constraints for faster optimization.
+
 - **[PortPy v1.1.0 released]** The following features have been added:
     
      - **Eclipse users can use their own dataset**: For more info, see [notebook](https://github.com/PortPy-Project/PortPy/blob/master/examples/eclipse_photon_dose_calculation.ipynb).
