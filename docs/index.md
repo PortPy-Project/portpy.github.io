@@ -1,3 +1,10 @@
+**News**
+**📢 We’re hiring two postdoctoral researchers!**
+We are currently recruiting two postdoctoral fellows to work on advanced optimization, AI-driven treatment planning, and clinically deployed open-source tools within the PortPy ecosystem.
+👉 Full position details and application instructions are available on LinkedIn:
+🔗 [View the LinkedIn post](https://www.linkedin.com/posts/masoud-zarepisheh-457a492b_%F0%9D%97%A3%F0%9D%97%BC%F0%9D%98%80%F0%9D%98%81%F0%9D%97%B1%F0%9D%97%BC%F0%9D%97%B0%F0%9D%98%81%F0%9D%97%BC%F0%9D%97%BF%F0%9D%97%AE%F0%9D%97%B9-%F0%9D%97%A2%F0%9D%97%BD%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4%F0%9D%98%80-activity-7417616514687750144-l0JS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAZiK0MB7MPtk3eYIgtPziUUCnALAUyncms)
+
+
 # **What is PortPy?**
 
 <img src="./images/Linac.gif" align="right" alt="Radiotherapy 101" width="40%" height="40%" margin-right="10px">
